@@ -1,0 +1,12 @@
+# environment files
+.env
+
+# pdm support
+.pdm.toml
+__pypackages__/
+
+# vscode
+.vscode/
+
+# cache
+.cache

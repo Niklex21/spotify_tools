@@ -1,0 +1,23 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Alex Nikanov", email = "alekseynikanov.21@gmail.com"},
+]
+dependencies = [
+    "spotipy>=2.20.0",
+    "dotenv>=0.0.5",
+    "python-dotenv>=0.21.0",
+]
+requires-python = ">=3.10"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-pep517>=1.0.0"]
+build-backend = "pdm.pep517.api"
+
+[tool]
+[tool.pdm]
+[tool.pdm.scripts]
+start = "python main.py"
