@@ -2,7 +2,7 @@
 .env
 
 # pdm support
-.pdm.toml
+.pdm-python
 __pypackages__/
 
 # vscode

@@ -1,12 +1,12 @@
 [project]
-name = ""
-version = ""
+name = "spotify_tools"
+version = "0.1.0"
 description = ""
 authors = [
     {name = "Alex Nikanov", email = "alekseynikanov.21@gmail.com"},
 ]
 dependencies = [
-    "spotipy>=2.20.0",
+    "spotipy>=2.23.0",
     "dotenv>=0.0.5",
     "python-dotenv>=0.21.0",
 ]
